@@ -1,6 +1,6 @@
 {
   "author": "Vladimir Tsvang <vtsvang@gmail.com>",
-  "name": "nyancat",
+  "name": "nyancat-telnet",
   "keywords": [
     "nyancat",
     "coffeescript"
@@ -8,19 +8,19 @@
   "licenses": [
     {
       "type": "MIT",
-      "url": "https://raw.github.com/vtsvang/nyancat-node/master/LICENSE"
+      "url": "https://raw.github.com/vtsvang/nyancat-telnet-node/master/LICENSE"
     }
   ],
   "bin": {
     "nyancat": "./app.js"
   },
   "bugs": {
-    "name": "https://github.com/vtsvang/nyancat-node/issues"
+    "name": "https://github.com/vtsvang/nyancat-telnet-node/issues"
   },
   "description": "Nyancat rendered with various bits of ANSI",
   "version": "0.0.1",
   "repository": {
-    "url": "git@github.com:vtsvang/nyancat-node.git"
+    "url": "git@github.com:vtsvang/nyancat-telnet-node.git"
   },
   "main": "./app.js",
   "dependencies": {
