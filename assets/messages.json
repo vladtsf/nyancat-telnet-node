@@ -1,0 +1,27 @@
+{
+	"nyaned": "You have nyaned for %d seconds!",
+	"startErr": "\u001b[91mPlease try running this command again as root/Administrator or use another port.\u001b[J\u001b[0m",
+	"listening": "Nyancat telnet server listening on port \u001b[92m%d\u001b[J\u001b[0m with \u001b[92m%d\u001b[J\u001b[0m fps",
+	"intro": [
+		"\u001b]1;Nyanyanyanyanyanyanya...\u0007",
+		"\u001b]2;Nyanyanyanyanyanyanya...\u0007",
+		"",
+		"",
+		"",
+		"                             \u001b[1mNyancat Telnet Server\u001b[0m",
+		"",
+		"                   written and run by \u001b[1;32mVladimir Tsvang\u001b[1;34m @vtsvang\u001b[0m",
+		"                    original idea by \u001b[1;32mKevin Lange\u001b[1;34m @kevinlange\u001b[0m",
+		"",
+		"        If things don't look right, try:",
+		"                TERM=fallback telnet ...",
+		"",
+		"        Or on Windows:",
+		"                telnet -t vtnt ...",
+		"",
+		"        This is a telnet server, remember your escape keys!",
+		"                \u001b[1;31mq + enter\u001b[0m to exit",
+		"",
+		"        Starting in %d...                \n"
+	]
+}
