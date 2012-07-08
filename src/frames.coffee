@@ -1,5 +1,5 @@
-source = require '../assets/frames.json'
-chars = require('../assets/characters.json')
+source = require '../assets/frames'
+chars = require('../assets/characters')
 draw = chars.draw
 
 replacement = []
