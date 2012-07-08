@@ -12,7 +12,7 @@
     }
   ],
   "bin": {
-    "nyancat": "./app.js"
+    "nyancat-telnet": "./app.js"
   },
   "bugs": {
     "name": "https://github.com/vtsvang/nyancat-telnet-node/issues"
