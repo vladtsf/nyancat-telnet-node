@@ -3,7 +3,7 @@ NODE=$(shell which node)
 
 all: lib assets/animation.json
 
-lib: lib/server.js lib/frames.js
+lib: lib/app.js lib/server.js lib/frames.js
 
 lib/%.js:
 	$(COMPILER) $(PWD)/src/$(shell basename $(@) | sed -e s/.js/.coffee/)
