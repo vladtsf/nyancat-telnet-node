@@ -18,7 +18,7 @@
     "name": "https://github.com/vtsvang/nyancat-node/issues"
   },
   "description": "Nyancat rendered with various bits of ANSI",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "repository": {
     "url": "git@github.com:vtsvang/nyancat-node.git"
   },
