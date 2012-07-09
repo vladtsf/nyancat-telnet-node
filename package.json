@@ -18,7 +18,7 @@
     "name": "https://github.com/vtsvang/nyancat-telnet-node/issues"
   },
   "description": "Nyancat rendered with various bits of ANSI",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "repository": {
     "url": "git@github.com:vtsvang/nyancat-telnet-node.git"
   },

@@ -7,7 +7,7 @@ messages = require '../assets/messages.json'
 program
 	.version(pkg.version)
 	.option('-p, --port <port>', 'telnet port', 23)
-	.option('-f, --fps <rate>', 'custom fps value', 10)
+	.option('-f, --fps <rate>', 'custom fps value', 12)
 	.parse(process.argv);
 
 srv = module.exports = new Server(program.port, program.fps)
