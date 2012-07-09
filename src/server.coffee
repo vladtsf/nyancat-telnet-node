@@ -30,7 +30,7 @@ class Server
 		field = new Array(80 - text.length).join(' ')
 		[chars.text, chars.draw[','], field, text, field, chars.end, chars.textEnd].join('')
 	
-	constructor: (@port, @fps = 10) ->
+	constructor: (@port, @fps = 12) ->
 		@server = net.createServer @client
 		@server.listen @port
 	
