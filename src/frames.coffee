@@ -3,8 +3,8 @@ chars = require('../assets/characters')
 draw = chars.draw
 
 replacement = []
-replacement.push '\\' + key for key, char of draw
-expr = new RegExp "(#{replacement.join('|')}+)", ['g']
+replacement.push "\\#{key}+" for key, char of draw
+expr = new RegExp "(#{replacement.join('|')})", ['g']
 
 frames = []
 exps = {}
